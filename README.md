@@ -1,4 +1,4 @@
-Reprodcction of this issue:  https://github.com/gatsbyjs/gatsby/issues/18312
+Reproduction of this issue:  https://github.com/gatsbyjs/gatsby/issues/18312
 
 1. Clone this repo and
 
@@ -24,4 +24,4 @@ query searchDataQuery {
 }
 ```
 
-Notice that the excerpt for the md file without the exerpt seperator is returns as empty string. Seeing as the pruneLength works when there is no exerpt seperator option, it seems reasonable that there should to should fall back to the pruneLength.
+Notice that the excerpt for the md file without the exerpt seperator is returned as empty string. Seeing as the pruneLength works when there is no exerpt seperator option, it seems reasonable that it should fall back to the pruneLength.
